@@ -1,0 +1,40 @@
+.hero{
+    margin-top: 15px;
+    width: 100%;
+}
+
+
+.heading{
+    width: 100%;
+    position: absolute;
+    margin-top: -60%;
+}
+.heading h1{
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+    color: rgb(236, 182, 182);
+    font-size: 10vh;
+    opacity: 0.5;
+}
+.hero img{
+    width: 100%;
+
+}
+#boat{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    color: rgb(59, 25, 8);
+    letter-spacing:0.3ch;
+    background-color: rgb(109, 70, 63);
+}
+#other-brands{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    color: rgb(28, 37, 7);
+    letter-spacing:0.3ch;
+    background-color: rgb(67, 121, 42);
+}

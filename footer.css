@@ -1,0 +1,67 @@
+footer{
+    position: relative;
+    width: 100%;
+    padding: 30px 10vw;
+    padding-bottom: 40px;
+    background-color: rgb(94, 13, 13)
+}
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer .logo{
+    height: 180px;
+}
+.c1{
+    font-size: large;
+    
+}
+.contact{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-info{
+    width: 200px;
+    list-style: none;
+    padding-top: 5px;
+}
+.contact-title{
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.contact-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(248, 135, 135);
+}
+.contact-title, .contact-link{
+    margin: 10px 0;
+}
+.contact-link:hover{
+    color: rgb(255, 255, 255);
+}
+.footer-title, .info{
+    color: rgba(255, 255, 255, 0.75);
+    margin: 10px 0;
+}
+.footer-title{
+    margin-top: 50px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.privacy{
+    color: #fff;
+    text-transform: capitalize;
+}
+.div1{
+    color: rgb(255, 249, 249);
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 30px;
+    opacity: 0.7;
+}

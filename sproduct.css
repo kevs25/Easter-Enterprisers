@@ -1,0 +1,59 @@
+
+#product-details .single-img {
+    width: 40%;
+    margin-right: 50px;
+    
+}
+.single-img{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+#product-details{
+    display: flex;
+    margin-top: 150px;
+}
+#product-details .detials{
+    width: 50%;
+    padding-top: 30px;
+}
+h2{
+    font-size: 70px;
+    padding: 5px 0 20px 0;
+}
+h4{
+    font-size: 30px;
+    padding: 5px 0 20px 0;
+}
+h3{
+    font-size: 60px;
+    padding: 5px 0 20px 0;
+}
+input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+button{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: rgb(95, 41, 41);
+    color: rgb(255, 248, 248);
+    border-radius: 2px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 30px 0;
+}
+span{
+    line-height: 25px;
+}
