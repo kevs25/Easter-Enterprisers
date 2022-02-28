@@ -4,6 +4,7 @@ const admin = require('firebase-admin');
 const bcrypt = require('bcrypt');
 const path = require('path');
 
+
 //firebase admin setup
 let serviceAccount = require("./e-commerce-website-f3bf0-firebase-adminsdk-7aohw-f5821b10b1.json");
 
@@ -77,11 +78,18 @@ app.post('/signup', (req, res) => {
     })
 })
 //routes
-
-//seller route
-app.get('/seller', (req, res) => {
-    res.sendFile(path.join(staticPath, "seller.html"))
+//Cart
+app.get('/cart', (req, res) => {
+    res.sendFile(path.join(staticPath, "cart.html"));
 })
+app.post('/order', (req, res) => {
+    const { email, add} = req.body;
+    let docName = email + Math.floor(Math.random() * 123719287419824);
+    db.collection('order').doc(docName).set(req.body)
+    .then(data => {
+        res.json('done');
+    })
+})  
 
 //login route
 app.get('/login', (req, res) => {
@@ -119,12 +127,6 @@ app.post('/login', (req, res) => {
         }
     })
 })
-//sproduct
-app.get("/sproduct", (req, res) => {
-    res.sendFile(path.join(staticPath, "sproduct.html"))
-})
-app.post
-
 //home routes
 app.get("/", (req, res) =>{
     res.sendFile(path.join(staticPath, "index.html"));

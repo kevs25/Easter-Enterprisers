@@ -28,12 +28,13 @@ body {
 .text{
     width: 100%;
     position: absolute;
-    margin-top: -40%;
+    margin-top: -48%;
+    
 }
 .text h1{
     text-align: center;
     color: #fff;
-    font-size: 10vh;
+    font-size: 17vh;
 
 }
 
@@ -86,14 +87,7 @@ body {
     scroll-behavior: smooth;
     padding-top: 30px;
 }
-.combo-product-container{
-    background-color: rgb(245, 235, 235);
-    padding: 0 10vw;
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding-top: 30px
-}
+
 .product-container::-webkit-scrollbar{
     display: none;
 }
@@ -168,4 +162,21 @@ body {
     letter-spacing:0.3ch;
     background-color: rgb(248, 219, 138);
     
+}
+.cart-btn{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: rgb(95, 41, 41);
+    color: rgb(255, 248, 248);
+    border-radius: 2px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 30px 0;
+}
+.buy-now{
+    text-decoration: none;
 }

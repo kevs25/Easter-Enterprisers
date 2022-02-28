@@ -14,6 +14,3 @@ productCOntainers.forEach((item, i) => {
         item.scrollLeft -=containerWidth;
     })
 })
-/*<button id="user-btn"><a href="login.html" class="user-link">Log in</a></button>
-                    <p class="account-info">New user? Sign in here</p>
-                    <button id="user-btn"><a href="signup.html" class="user-link">sign up</a></button>*/

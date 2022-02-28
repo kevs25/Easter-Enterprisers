@@ -5,9 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="home.css">
+    
+    <link rel="stylesheet" href="cart.css">
 </head>
 <body>
+    <nav class="navbar">
+        
+    </nav>
+
+
+    <img src="images/loader.gif" class="loader" alt="">
+
+    <div class="alert-box">
+        <img src="images/error.png" class="alert-img" alt="">
+        <p class="alert-msg">Error message</p>
+    </div>
+    <div class="cart-container">
+        <img src="images/logo.jpg" class="logo" alt="">
+    <div>
+    <div class="input-elements">
+        <label>Delivery address</label>
+        <input type="text" autocomplete="off" id="address" placeholder="Address eg: address1 or office address">
+        <input type="text" autocomplete="off" id="flatno" placeholder="Flat no. or door no.">
+        <input type="text" autocomplete="off" id="area" placeholder="Area or apartment">
+        <input type="text" autocomplete="off" id="city" placeholder="City">
+        <input type="text" autocomplete="off" id="pincode" placeholder="pincode">
+        <label>Enter product Details</label>
+        <input type="text" autocomplete="off" id="product-type" placeholder="Enter product type e.g: airpods,shoes,headphones...">
+        <input type="text" autocomplete="off" id="product-model" placeholder="Enter product model e.g: airpods Pro, series 7 watch">
+        <button class="buy-now">Buy now</button>        
+    </div>
     
+
+
+    <footer></footer>
+   
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/token.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 </html>

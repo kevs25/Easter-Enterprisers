@@ -65,9 +65,46 @@ submitBtn.addEventListener('click', () => {
             loader.style.display = 'block';
             sendData('/login', {
                 email: email.value,
-                password: password.value,
+                password: password.value
             })
         }
     }
 })
+buyNow.addEventListener('click', () => {
+    if(!email.value.length){
+        showAlert( 'Enter your mail');
+    }
+    else if(!number.value.length)
+    {
+        showAlert('enter your number');
+    }
+    else if(!Number(number.value) || number.value.length<10 || number.value.length>10)
+    {
+        showAlert('Invalid number, Please enter a valid number');
+    }
+    else if(!flatno.value.length < 8)
+    {
+        showAlert('Enter your flat number or door number');
+    }
+    else if(!area.value.length)
+    {
+        showAlert('Enter your area');
+    }
+    else if(!city.value.length)
+    {
+        showAlert('Enter your city');
+    }
+    else if(!pincode.value.length)
+    {
+        showAlert('Enter your Pincode');
+    }
+    else{
+        //
+    }
+})
+
+
+
+
+
 //send data function

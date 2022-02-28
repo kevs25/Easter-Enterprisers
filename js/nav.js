@@ -17,11 +17,10 @@ const createNav= () => {
                 <img src="images/account.png" id="user-img" alt="">
                 <div class="login-logout-popup hide">
                     <p class="account-info">Login as,name</p>
-                    <button id="user-btn">Log out</button>
+                    <button id="user-btn">Log in</button>
                 </div>
             </a>
             <a href="cart.html"><img src="images/cart.png" alt=""></a>
-            <img src="images/menu.png" class="menu" alt="">
         </div>
     </div>
     `;

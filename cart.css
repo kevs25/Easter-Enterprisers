@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    display: none;
+}
+.cart-container{
+    margin-top: 5%;
+}
+.logo{
+    height: 170px;
+    border-radius: 50%;
+    width: 170px;
+    display: block;
+    margin: 130px auto 50px;
+}
+.input-elements{
+    display: block;
+    margin: 0 auto 50px;
+    margin-left: 20%;
+}
+input[type="email"],
+input[type="number"],
+input[type="text"],
+input[type="text"],
+input[type="text"],
+input[type="text"]
+{
+    display: block;
+    width: 70%;
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: rgb(49, 6, 6);
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
+    font-family: Arial, Helvetica, sans-serif;
+}
+::placeholder{
+    color: rgb(252, 166, 166);
+}
+.buy-now{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: rgb(95, 41, 41);
+    color: rgb(255, 248, 248);
+    border-radius: 2px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 30px 0;
+    margin-left: 20%;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="text"]:focus,
+input[type="text"]:focus,
+input[type="text"]:focus
+{
+    outline: 1px solid #e24c4b;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+}
+label{
+    text-transform: capitalize;
+    background-color: #181515;
+    display: inline-block;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #d4b1b1;
+}
+
+.alert-box{
+    width: 300px;
+    min-height: 150px;
+    background:#fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 100px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 1s;
+}
+.alert-box.show{
+    opacity: 1;
+    pointer-events: all;
+    top: 50%;
+}
+.alert-img{
+    display: block;
+    margin: 10px auto 20px;
+    height: 60px;
+}
+
+.alert-msg{
+    color: #e24c4b;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
+}
