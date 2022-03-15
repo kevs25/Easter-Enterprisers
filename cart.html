@@ -34,13 +34,20 @@
         <label>Enter product Details</label>
         <input type="text" autocomplete="off" id="product-type" placeholder="Enter product type e.g: airpods,shoes,headphones...">
         <input type="text" autocomplete="off" id="product-model" placeholder="Enter product model e.g: airpods Pro, series 7 watch">
-        <button class="buy-now">Buy now</button>        
+        <button class="buyNow">Buy now</button>        
     </div>
     
 
 
     <footer></footer>
-   
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+        emailjs.init("user_Xu7kkJ2HOM2IFTbtrvoCo");
+        })();
+    </script>
+    <script src="email.js"></script>
     <script src="js/nav.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/token.js"></script>
