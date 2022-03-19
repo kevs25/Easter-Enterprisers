@@ -3,8 +3,8 @@ window.onload = () => {
         location.replace('/login');
     }
 }
-const buyNow = document.querySelector('.buy-now');
-buyNow.addEventListener('click', () => {
+const buy_now = document.querySelector('.buyNow');
+buy_now.addEventListener('click', () => {
     let address = getAddress();
 
     if(address){
@@ -20,9 +20,15 @@ buyNow.addEventListener('click', () => {
         .then(data => {
             showAlert('Your order is placed successfully');
         })
+        emailjs.send('service_iqez3da', 'template_f4i36xv',getAddress())
+        .then(function(res)
+        {
+            console.log("success",res.status)
+        })
     }
 })
 const getAddress = () => {
+    let from_name = document.querySelector('#from_name').value;
     let address = document.querySelector('#address').value;
     let productType = document.querySelector('#product-type').value;
     let productModel = document.querySelector('#product-model').value;
