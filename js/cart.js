@@ -37,12 +37,12 @@ const getAddress = () => {
     let city = document.querySelector('#city').value;
     let pincode = document.querySelector('#pincode').value;
 
-    if(!address.length ||!flatno.length || !area.length || !city.length || !pincode.length || !productType.length || !productModel.length)
+    if(!from_name.length || !address.length ||!flatno.length || !area.length || !city.length || !pincode.length || !productType.length || !productModel.length)
     {
         return showAlert('fill all the inputs first');
     }
     else{
-        return {address, flatno, area, city, pincode, productType, productModel};
+        return {from_name, address, flatno, area, city, pincode, productType, productModel};
     }
 }
     
