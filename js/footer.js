@@ -3,7 +3,7 @@ const createFooter = () => {
     createFooter.innerHTML =`
     <div class="footer-content">
         <img src="images/logo.jpg" class="brand-logo" alt="cover">
-        <div class="div1">Electronics & clothing</div>
+        <div class="div1">Easter-Enterprisers</div>
             <div class="contact">
                 <ul class="contact-info">
                     <li class="contact-title">contact us here</li>
@@ -19,9 +19,11 @@ const createFooter = () => {
         <br>
         <p class="footer-title">About us</p>
     
-        <p class="info">All the products in this website are 7a/10a quality and there is a return policy if the product is not satisfied by the user. We sell our products all over India.</p>
+        <p class="info">All the products in this website are 7a/10a quality.</p>
+        <p class="info">There is a return policy if the product is not satisfied by the user.</p>
+        <p class="info">We sell our products all over India.</p>
            
-        <a href="#" class="privacy">Privacy Policy</a>
+        
     </div>     
     `;
 }

@@ -29,7 +29,7 @@ footer{
 }
 .contact-title{
     text-transform: capitalize;
-    font-size: large;
+    font-size: 25px;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
@@ -37,6 +37,7 @@ footer{
     text-decoration: none;
     text-transform: capitalize;
     color: rgb(248, 135, 135);
+    font-size: 20px;
 }
 .contact-title, .contact-link{
     margin: 10px 0;
