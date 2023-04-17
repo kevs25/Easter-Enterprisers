@@ -22,6 +22,7 @@ const createNav= () => {
             </a>
             <a href="cart.html"><img src="images/cart.png" alt=""></a>
         </div>
+
     </div>
     `;
 }
